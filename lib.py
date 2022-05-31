@@ -1,7 +1,6 @@
-from curses import window
-import seaborn as sns
+from curses import raw
 import numpy as np
-from numpy import fft
+from numpy import fft, hsplit
 from scipy import signal
 
 
@@ -41,23 +40,12 @@ def spectral_subtraction(raw_data: np.ndarray,
         np.abs(fft.fft(raw_data[: 10 * frame_size].reshape(10, -1))) ** 2, axis=0)
 
     # apply window function and overlap to the raw data
-    window = signal.windows.hanning(frame_size)
-    raw_data = raw_data.reshape(frame_number, -1) * window
-
-    ###########################################################################
-    #                                                                         #
-    #                    Warning:Fatal Bug in this part!                      #
-    #                                                                         #
-    ###########################################################################
-    overlap_edge_size = frame_size // 4   # 25% overlap at each side of a frame
-    forward_shifted_data = np.vstack((np.zeros((1, frame_size)),
-                                     raw_data[:frame_number - 1]))
-    forward_shifted_data[:][overlap_edge_size:] = 0
-    backward_shifted_data = np.vstack((
-        raw_data[:frame_number - 1], np.zeros((1, frame_size))))
-    backward_shifted_data[:][-overlap_edge_size:] = 0
-    preprocessd_data = raw_data + forward_shifted_data + backward_shifted_data
-    ###########################################################################
+    window = signal.windows.hamming(frame_size)
+    overlap_size = frame_size // 2   # 50% overlap
+    raw_data = raw_data.reshape(-1, overlap_size)
+    overlap_data = np.hstack((raw_data, np.vstack(
+        (raw_data[1:], np.zeros((1, raw_data.shape[1]))))))
+    preprocessd_data = overlap_data * window
 
     # now we're ready to do the spectral subtraction
     fft_data = fft.fft(preprocessd_data, axis=-1)
@@ -74,8 +62,13 @@ def spectral_subtraction(raw_data: np.ndarray,
     result_power_spectrum = np.where(
         power_spectrum >= alpha_array * noise_power_sectrum,
         power_spectrum - alpha_array * noise_power_sectrum, beta * noise_power_sectrum)
-    result = fft.ifft(np.sqrt(result_power_spectrum) *
-                      np.exp(1j * phase)).reshape(-1)[:original_size]
+    overlap_result = fft.ifft(np.sqrt(result_power_spectrum) *
+                              np.exp(1j * phase))
+
+    left_half, right_half = hsplit(overlap_result, 2)
+    result = (np.vstack((left_half, np.zeros((1, overlap_size)))) +
+              np.vstack((np.zeros((1, overlap_size)), right_half)
+                        )).reshape(-1)[:original_size]
 
     return result
 
