@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98f4c25c-7044-49e7-b5a5-ce303dd30cb3" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="3348b13c-84dc-4ec9-bd1f-f28b21a67c42" />
+  <component name="ProjectId" id="2A9zYdiI6Ze3EkHjlW9fv8EYCjs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="Music-Reading" sdk-home="D:\Anaconda\envs\pytorch\python.exe">
+        <option name="mySdkHome" value="D:\Anaconda\envs\pytorch\python.exe" />
+        <option name="myModuleName" value="Music-Reading" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.pitch (1)">
+    <configuration name="lib" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Music-Reading" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pitch (1)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Music-Reading" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pitch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pitch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Music-Reading" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.ipynb_checkpoints" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.ipynb_checkpoints/pitch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.pitch" />
+        <item itemvalue="Python.lib" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98f4c25c-7044-49e7-b5a5-ce303dd30cb3" name="默认更改列表" comment="" />
+      <created>1654436637385</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654436637385</updated>
+      <workItem from="1654436644282" duration="2161000" />
+      <workItem from="1654513727526" duration="4898000" />
+      <workItem from="1654603947446" duration="8573000" />
+      <workItem from="1654649418539" duration="16820000" />
+      <workItem from="1654842389106" duration="6895000" />
+      <workItem from="1654857306061" duration="6296000" />
+      <workItem from="1654869207386" duration="6668000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="206" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1654612078828">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="206" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960@0.0.1500.960" timestamp="1654612078828" />
+    <state x="343" y="139" width="812" height="728" key="#意向" timestamp="1654845713588">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="343" y="139" width="812" height="728" key="#意向/0.0.1500.960@0.0.1500.960" timestamp="1654845713588" />
+    <state width="1458" height="217" key="GridCell.Tab.0.bottom" timestamp="1654877895094">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1458" height="217" key="GridCell.Tab.0.bottom/0.0.1500.960@0.0.1500.960" timestamp="1654877895094" />
+    <state width="1458" height="217" key="GridCell.Tab.0.center" timestamp="1654877895094">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1458" height="217" key="GridCell.Tab.0.center/0.0.1500.960@0.0.1500.960" timestamp="1654877895094" />
+    <state width="1458" height="217" key="GridCell.Tab.0.left" timestamp="1654877895094">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1458" height="217" key="GridCell.Tab.0.left/0.0.1500.960@0.0.1500.960" timestamp="1654877895094" />
+    <state width="1458" height="217" key="GridCell.Tab.0.right" timestamp="1654877895094">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state width="1458" height="217" key="GridCell.Tab.0.right/0.0.1500.960@0.0.1500.960" timestamp="1654877895094" />
+    <state x="105" y="100" key="SettingsEditor" timestamp="1654869771004">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="105" y="100" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1654869771004" />
+    <state x="411" y="136" width="672" height="676" key="search.everywhere.popup" timestamp="1654844746057">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="411" y="136" width="672" height="676" key="search.everywhere.popup/0.0.1500.960@0.0.1500.960" timestamp="1654844746057" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Music_Reading$pitch.coverage" NAME="pitch Coverage Results" MODIFIED="1654612063514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.ipynb_checkpoints" />
+    <SUITE FILE_PATH="coverage/Music_Reading$pitch__1_.coverage" NAME="pitch (1) Coverage Results" MODIFIED="1654877875294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Music_Reading$lib.coverage" NAME="lib Coverage Results" MODIFIED="1654608450897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
