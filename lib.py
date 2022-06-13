@@ -232,6 +232,10 @@ def __pitch_extraction(raw_data: np.ndarray, frame_rate: int, piece: float):
     fft_data = np.fft.fftshift(fft_data, axes=-1)
     power_spectrum = np.abs(fft_data) ** 2
 
+    # clear some weak frequency -- if a frequency is too weak, it's likely to be a noise.
+    zero_index = np.where(np.abs(power_spectrum) <= 1000)
+    power_spectrum[zero_index] = 0
+
     # analyze the best freqs for every piece of fft_data
     index = np.where(np.abs(power_spectrum) >=
                      (0.4 * (np.max(np.abs(power_spectrum), axis=-1).reshape(-1, 1))))

@@ -6,10 +6,11 @@ import array
 
 """
 本文件为提取音频为音高数据的样例。
+音高提取以之前的去噪为基础，采用的是去噪的输出结果denoised_audio.mp3.
 """
 
 # 提取音频，判断是否为双声道
-audio_name = "Example Music/prologue.mp3"
+audio_name = "denoised_audio.mp3"
 audio = AudioSegment.from_file(
     audio_name, format='mp3', frame_rate=44100)
 audio_data = np.array(
